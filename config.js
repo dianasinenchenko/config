@@ -33,9 +33,9 @@ module.exports = {
 
     // Postgres config used for all connections - replace with your data
     sqlserver_config:  {
-        user:       'realm',
-        password:   '',
-        server:     '',
+        user:       'temp',
+        password:   'temp1234',
+        server:     '176.58.61.47',
         port:        1433,
         connectionTimeout: 300000,
         requestTimeout:    300000,
