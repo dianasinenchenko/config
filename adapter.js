@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const process = require('process');
-const SQLServerAdapter = require('realm-mssql-adapters').SQLServerAdapter;
+const SQLServerAdapter = require('adapter').SQLServerAdapter;
 const Config = require('./config');
 const Models = require('./realmmodels');
 
