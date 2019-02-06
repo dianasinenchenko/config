@@ -43,7 +43,7 @@ async function main() {
         // Any types or properties not specified here will not be replicated
         schema: Models,
 
-        printCommandsToConsole: false,
+        printCommandsToConsole: true
 
     }
 
