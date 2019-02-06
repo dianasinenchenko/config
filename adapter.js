@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const process = require('process');
-const SQLServerAdapter = require('adapter').SQLServerAdapter;
+const SQLServerAdapter = require('realm-mssql-adapters').SQLServerAdapter;
 const Config = require('./config');
 const Models = require('./realmmodels');
 
@@ -24,7 +24,7 @@ async function main() {
 
         // Set to true to create the SQL Server DB if not already created
         createSQLServerDB: false,
-        initializeRealmFromSQLServer: false,
+        initializeRealmFromSQLServer: true,
 
         // Set to true to indicate SQL Server tables should be created and
         // properties added to these tables based on schema additions
