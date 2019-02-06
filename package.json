@@ -1,0 +1,16 @@
+{
+  "name": "test666",
+  "version": "1.0.0",
+  "description": "",
+  "main": "adapter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "realm": "^2.23.0",
+    "uuid": "^3.3.2"
+  }
+}
